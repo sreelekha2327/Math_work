@@ -15,6 +15,7 @@ echo "Factorial of $n is : $facto"
 echo " Enter the numbers for which you want to find factorial : "
 read -a fact
 l=${#fact[@]}
+echo "${fact[@]}"
 
 for((j=0;j<l;j++))
 do
